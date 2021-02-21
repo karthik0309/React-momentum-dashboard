@@ -1,0 +1,46 @@
+.bottomQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    flex-direction: column;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+.author{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    opacity: 0.9;
+}
+.logo{
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1%;
+    text-transform: capitalize;
+}
+
+.social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+}
+img{
+    height: 25%;
+    width: 25%;
+    margin: 3px;
+    cursor: pointer;
+}
+@media (max-width:500px){
+    .bottomQuote,.author{
+        display: none;
+    }
+}

@@ -1,0 +1,69 @@
+.bottomTodo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1%;
+    font-size: 1rem;
+    color: white;
+    font-family: sans-serif;
+    font: bolder;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 2%;
+    z-index: 100;
+}
+.modal{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px;
+    position: relative;
+}
+.todos{
+    height:100px;
+    overflow: scroll;
+    overflow-y: scroll;
+}
+button{
+    background-color: gray;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    width: 40%;
+    height: 10%;
+    cursor: pointer;
+}
+.todo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.todoItem{
+    display: flex;
+    align-items: center;
+}
+.todoItem >p{
+ margin: 0;
+}
+.input{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+@media (max-width:500px){
+    .bottomTodo{
+        font-size: 1.2rem;
+    }
+    .input{
+        font-size: larger;
+    }
+}

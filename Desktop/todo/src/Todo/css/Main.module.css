@@ -1,0 +1,74 @@
+.Main{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bolder;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    font-weight: 500;
+}
+.time{
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+}
+.Quote{
+    font-size: 35px;
+}
+
+.input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
+}
+.mainFocus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 2rem;
+}
+.mainFocus >p{
+    margin: 0;
+}
+.checkBox{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+
+
+.checked{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    font-size: 1.5rem;
+    margin: 12px;
+    cursor: pointer;
+    padding: 8px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+.plus:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
