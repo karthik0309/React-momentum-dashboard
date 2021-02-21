@@ -17,10 +17,12 @@ This project is a clone of moementum dashboard,which basically has a todoList, a
 * You can check the Demo here 
 
 ## Results
-![alt text](//../output1.png)
-### Todos
-![alt text](//../output2.png)
 
+![output1](https://user-images.githubusercontent.com/55057144/108616285-1ab21f80-7432-11eb-9123-eaba389cbf58.png)
+
+### Todos
+
+![output2](https://user-images.githubusercontent.com/55057144/108616288-243b8780-7432-11eb-86e2-1f5ba0202f09.png)
 ## What you can add
 *   Use unsplash api for BackGround images, instead of holding a img folder
 *   Providing hourly and weekly weather report 
