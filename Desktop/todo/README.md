@@ -14,7 +14,7 @@ This project is a clone of moementum dashboard,which basically has a todoList, a
 ## Just have fun 
 
 ## Demo
-* You can check the Demo here 
+* You can check the Demo here (https://react-momentum-dashboard.netlify.app/)
 
 ## Results
 
@@ -23,6 +23,9 @@ This project is a clone of moementum dashboard,which basically has a todoList, a
 ### Todos
 
 ![output2](https://user-images.githubusercontent.com/55057144/108616288-243b8780-7432-11eb-86e2-1f5ba0202f09.png)
+
+### Made responsive
+![Screenshot 2021-02-21 at 10 59 14 AM](https://user-images.githubusercontent.com/55057144/108616510-ea6b8080-7433-11eb-92d8-40c4f8ed060f.png)
 ## What you can add
 *   Use unsplash api for BackGround images, instead of holding a img folder
 *   Providing hourly and weekly weather report 
