@@ -8,16 +8,16 @@ class BottomTodo extends PureComponent {
         checkedList:[],
     }
     componentDidMount(){
-        if(localStorage.getItem("todos")===null && localStorage.getItem("todos")!==[]){
+        if(localStorage.getItem("todos")===null){
             localStorage.setItem("todos",[])
         }
-        else{
+        else if(localStorage.getItem("todos")){
             this.setState({todoList :JSON.parse(localStorage.getItem("todos"))})
         }
-        if(localStorage.getItem("checkTodos")===null && localStorage.getItem("todos")!==[]){
+        if(localStorage.getItem("checkTodos")===null){
             localStorage.setItem("checkTodos",[])
         }
-        else{
+        else if(localStorage.getItem("checkTodos")){
             this.setState({checkedList : JSON.parse(localStorage.getItem("checkTodos"))})
         }
     }

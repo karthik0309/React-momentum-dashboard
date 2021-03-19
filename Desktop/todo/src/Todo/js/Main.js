@@ -15,16 +15,16 @@ class Main extends Component {
         axios.get('https://api.quotable.io/random', { params: { maxLength: 25 } }).then((res) => {
             this.setState({ Quote: res.data.content, Author: res.data.author })
         })
-        if(localStorage.getItem("mainFocus")===null || localStorage.getItem("mainFocus")===''){
+        if(localStorage.getItem("mainFocus")===null ){
             localStorage.setItem("mainFocus",'');
         }
-        else{
+        else if(localStorage.getItem("mainFocus")){
             this.setState({mainFocus:JSON.parse(localStorage.getItem("mainFocus")),showMainFocus:false})
         }
         if(localStorage.getItem("checked")===null){
             localStorage.setItem("checked",false)
         }
-        else{
+        else if(localStorage.getItem("checked")){
             this.setState({checked:JSON.parse(localStorage.getItem("checked"))})
         }
     }

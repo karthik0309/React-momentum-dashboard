@@ -17,6 +17,8 @@ class Weather extends PureComponent {
                         temp: (res.data.main.temp - 273).toFixed(2),
                         icon: res.data.weather[0].icon
                     })
+                }).catch((err)=>{
+                    console.log(err)
                 })
             })
         }
