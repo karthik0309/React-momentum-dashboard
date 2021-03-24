@@ -14,7 +14,7 @@ This project is a clone of moementum dashboard,which basically has a todoList, a
 ## Just have fun 
 
 ## Demo
-* You can check the Demo here (https://react-momentum-dashboard.netlify.app/)
+* You can check the Demo here (https://momentum-dashboard.netlify.app/)
 
 ## Results
 
